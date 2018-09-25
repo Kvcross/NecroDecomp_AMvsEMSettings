@@ -42,7 +42,7 @@ mass.avg = MR_data %>%
   summarise_all(funs(length,mean(., na.rm = TRUE),sd(., na.rm = TRUE),se=sd(., na.rm = TRUE)/sqrt(n())))
 write.table(mass.avg , "output/avgs_massdata.txt", sep = "\t", row.names = FALSE, quote = FALSE)
 
-# plots
+# preliminary plots
 
 # mass Remaining for each isolate for the different incubation periods
 MR1 = ggplot(MR_data, aes(x=incub_period.days, y=mass_remaining, color=isolate)) +
@@ -57,8 +57,7 @@ MR1 = ggplot(MR_data, aes(x=incub_period.days, y=mass_remaining, color=isolate))
   theme_classic(base_size=20) +
   theme(axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black")) 
 
-
-# same plot as MR1 with relative time points to better see differences among species
+# mass Remaining for each isolate for the different incubation periods by site
 MR2 = ggplot(MR_data, aes(x=relative_period.months, y=mass_remaining, color=isolate)) +
   stat_summary(fun.data = "mean_se", size = 0.5) +
   stat_summary(fun.y = mean,geom = "line", aes(group=isolate), size=0.5) +
@@ -69,9 +68,23 @@ MR2 = ggplot(MR_data, aes(x=relative_period.months, y=mass_remaining, color=isol
   scale_y_continuous(name="Mass Remaining (%)", limits=c(0, 100)) +
   labs(color="Fungal Species") +
   theme_classic(base_size=20) +
-  theme(axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black")) 
- 
+  theme(axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black")) +
+  facet_wrap(~setting,scales = "free")
 
+# same plot at MR2 with myc assoc
+MR3 = ggplot(MR_data, aes(x=relative_period.months, y=mass_remaining, color=isolate, shape=myc_assoc)) +
+  stat_summary(fun.data = "mean_se", size = 0.5) +
+  stat_summary(fun.y = mean,geom = "line", aes(group=isolate), size=0.5) +
+  stat_summary(fun.y="mean", geom="point", size=0.5, 
+               aes(group = isolate), show.legend=FALSE) +
+  scale_color_manual(values=c("black", "dimgrey", "gray", "cornsilk3", "lemonchiffon4")) +
+  scale_x_continuous("Time (months)") + 
+  scale_y_continuous(name="Mass Remaining (%)", limits=c(0, 100)) +
+  labs(color="Fungal Species") +
+  theme_classic(base_size=20) +
+  theme(axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black")) +
+  facet_wrap(~setting,scales = "free")
 
-
-
+ggsave(MR1, filename = "./figures/Prelim_MassRemain_sp.png", units = "in", width = 12, height = 5, dpi = 300)
+ggsave(MR2, filename = "./figures/Prelim_MassRemain_site.png", units = "in", width = 12, height = 5, dpi = 300)
+ggsave(MR3, filename = "./figures/MassRemain_site_myc.png", units = "in", width = 12, height = 5, dpi = 300)
