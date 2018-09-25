@@ -58,7 +58,7 @@ MR1 = ggplot(MR_data, aes(x=incub_period.days, y=mass_remaining, color=isolate))
   theme(axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black")) 
 
 # mass Remaining for each isolate for the different incubation periods by site
-MR2 = ggplot(MR_data, aes(x=relative_period.months, y=mass_remaining, color=isolate)) +
+MR2 = ggplot(MR_data, aes(x=incub_period.months, y=mass_remaining, color=isolate)) +
   stat_summary(fun.data = "mean_se", size = 0.5) +
   stat_summary(fun.y = mean,geom = "line", aes(group=isolate), size=0.5) +
   stat_summary(fun.y="mean", geom="point", size=0.5, 
@@ -72,7 +72,7 @@ MR2 = ggplot(MR_data, aes(x=relative_period.months, y=mass_remaining, color=isol
   facet_wrap(~setting,scales = "free")
 
 # same plot at MR2 with myc assoc
-MR3 = ggplot(MR_data, aes(x=relative_period.months, y=mass_remaining, color=isolate, shape=myc_assoc)) +
+MR3 = ggplot(MR_data, aes(x=incub_period.days, y=mass_remaining, color=isolate, shape=myc_assoc)) +
   stat_summary(fun.data = "mean_se", size = 0.5) +
   stat_summary(fun.y = mean,geom = "line", aes(group=isolate), size=0.5) +
   stat_summary(fun.y="mean", geom="point", size=0.5, 
