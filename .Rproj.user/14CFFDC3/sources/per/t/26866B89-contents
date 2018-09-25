@@ -64,7 +64,7 @@ MR2 = ggplot(MR_data, aes(x=incub_period.months, y=mass_remaining, color=isolate
   stat_summary(fun.y="mean", geom="point", size=0.5, 
                aes(group = isolate), show.legend=FALSE) +
   scale_color_manual(values=c("black", "dimgrey", "gray", "cornsilk3", "lemonchiffon4")) +
-  scale_x_continuous("Time (months)") + 
+  scale_x_continuous("Time (days)") + 
   scale_y_continuous(name="Mass Remaining (%)", limits=c(0, 100)) +
   labs(color="Fungal Species") +
   theme_classic(base_size=20) +
@@ -78,7 +78,7 @@ MR3 = ggplot(MR_data, aes(x=incub_period.days, y=mass_remaining, color=isolate, 
   stat_summary(fun.y="mean", geom="point", size=0.5, 
                aes(group = isolate), show.legend=FALSE) +
   scale_color_manual(values=c("black", "dimgrey", "gray", "cornsilk3", "lemonchiffon4")) +
-  scale_x_continuous("Time (months)") + 
+  scale_x_continuous("Time (days)") + 
   scale_y_continuous(name="Mass Remaining (%)", limits=c(0, 100)) +
   labs(color="Fungal Species") +
   theme_classic(base_size=20) +
