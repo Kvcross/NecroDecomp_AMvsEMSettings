@@ -72,48 +72,6 @@ MR2 = ggplot(MR_data, aes(x=relative_period.months, y=mass_remaining, color=isol
   theme(axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black")) 
  
 
-MR3 = ggplot(nd.mr, aes(x=incub_period.days, y=percent_mass_remaining, color=myc_assoc)) +
-  stat_summary(fun.data = "mean_se", size = 0.75) +
-  stat_summary(fun.y = mean,geom = "line",size=0.75) +
-  stat_summary(fun.y="mean", geom="point", size=0.75) +
-  scale_color_manual(values=c("black", "grey")) +
-  scale_x_continuous("Time(days)") + 
-  scale_y_continuous("Mass Remaining (%)") +
-  theme_classic(base_size=20) +
-  theme(axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black")) 
-nd_MR3
 
-# Moisture and pH plots
-moist_sp = ggplot(nd, aes(x=soil_moisture, y=percent_mass_remaining, color=species)) + 
-  geom_point() +
-  geom_smooth(method=lm, se=FALSE, size=0.5) +
-  scale_colour_manual(values = c("black", "grey")) +
-  theme_classic(base_size = 20) +
-  ylim(0,50) +
-  ylab("Mass Remaining (%)") +
-  xlab("Soil Volumetric Water Content (%)") +
-  labs(color = "Fungal Species") 
-
-moist_myc = ggplot(nd, aes(x=soil_moisture, y=percent_mass_remaining, color=species)) + 
-  geom_point() +
-  geom_smooth(method=lm, se=FALSE, size=0.5) +
-  scale_colour_manual(values = c("black", "grey")) +
-  facet_wrap(~myc_assoc) +
-  theme_classic(base_size = 20) +
-  ylim(0,50) +
-  ylab("Mass Remaining (%)") +
-  xlab("Soil Volumetric Water Content (%)") +
-  labs(color = "Fungal Species") 
-
-moist_myc2 = ggplot(nd, aes(x=soil_moisture, y=percent_mass_remaining, color=species)) + 
-  geom_point() +
-  geom_smooth(method=lm, se=FALSE) +
-  scale_colour_manual(values = c("black", "grey")) +
-  facet_wrap(~myc_assoc, scales = "free") +
-  theme_classic(base_size = 20) +
-  ylim(0,50) +
-  ylab("Mass Remaining (%)") +
-  xlab("Soil Volumetric Water Content (%)") +
-  labs(color = "Fungal Species") 
 
 
