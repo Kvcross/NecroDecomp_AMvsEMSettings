@@ -27,13 +27,14 @@ ifundecomp_melb.mort <- ifundecomp_myc %>%
 # mass Remaining for each isolate for the different incubation periods
 MR1 <-  ggplot(ifundecomp, aes(x=incub_period.days, y=mass_remaining, color=isolate)) +
   geom_point() +
+  geom_smooth() +
   scale_color_manual(values=c("black", "dimgrey", "gray","cornsilk3")) +
   scale_x_continuous("Time (days)") + 
   scale_y_continuous(name="Mass Remaining (%)", limits=c(0, 100)) +
   labs(color="Fungal Species") +
   theme_classic(base_size=20) +
   theme(axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black")) +
-  facet_grid(setting ~.)
+  facet_grid(veg_type ~.)
 
 MR2 <- ggplot(ifundecomp, aes(x=incub_period.days, y=mass_remaining, color=mel_status)) +
   geom_point() +
@@ -43,7 +44,7 @@ MR2 <- ggplot(ifundecomp, aes(x=incub_period.days, y=mass_remaining, color=mel_s
   labs(color="Fungal Species") +
   theme_classic(base_size=20) +
   theme(axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black")) +
-  facet_grid(setting ~.)
+  facet_grid(veg_type ~.)
 
 
 MR3 <-ggplot(ifundecomp, aes(x=incub_period.days, y=mass_remaining, color=isolate)) +
@@ -57,7 +58,7 @@ MR3 <-ggplot(ifundecomp, aes(x=incub_period.days, y=mass_remaining, color=isolat
   labs(color="Fungal Species") +
   theme_classic(base_size=20) +
   theme(axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black")) +
-  facet_grid(.~setting,scales = "free")
+  facet_grid(.~veg_type,scales = "free")
   
 # mass Remaining for each isolate for the different incubation periods by site
 MR4 <-  ggplot(ifundecomp_melb.mort, aes(x=incub_period.days, y=mass_remaining, color=isolate)) +
@@ -71,7 +72,7 @@ MR4 <-  ggplot(ifundecomp_melb.mort, aes(x=incub_period.days, y=mass_remaining, 
   labs(color="Fungal Species") +
   theme_classic(base_size=20) +
   theme(axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black")) +
-  facet_grid(.~setting,scales = "free")
+  facet_grid(.~veg_type,scales = "free")
 
 # mass Remaining for each isolate for the different incubation periods by site/ myc assoc
 MR5 <-  ggplot(ifundecomp_melb.mort, aes(x=incub_period.days, y=mass_remaining, color=isolate, shape=isolate_myc)) +
@@ -86,7 +87,7 @@ MR5 <-  ggplot(ifundecomp_melb.mort, aes(x=incub_period.days, y=mass_remaining, 
   labs(color="Fungal Species") +
   theme_classic(base_size=20) +
   theme(axis.line.x = element_line(color = "black"), axis.line.y = element_line(color = "black")) +
-  facet_grid(.~setting,scales = "free")
+  facet_grid(.~veg_type,scales = "free")
 
 # pH plot
 pH_set = ggplot(ifundecomp, aes(x=pH, y=mass_remaining)) + 

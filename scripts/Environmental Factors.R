@@ -20,7 +20,7 @@ envdata <- fundecomp  %>%
 
 # averages 
 env.avg <- envdata %>%
-  select(setting,treatment,pH,soil_moisture) %>%
-  group_by(setting,treatment) %>%
+  select(veg_type,treatment,pH,soil_moisture) %>%
+  group_by(veg_type,treatment) %>%
   summarise_all(funs(length,mean(., na.rm = TRUE),sd(., na.rm = TRUE),se=sd(., na.rm = TRUE)/sqrt(n())))
 write.table(env.avg, "output/avgs_envdata.txt", sep = "\t", row.names = FALSE, quote = FALSE)

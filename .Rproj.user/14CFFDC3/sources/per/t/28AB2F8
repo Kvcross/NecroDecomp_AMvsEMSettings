@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1540759132364.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2031383231",
+    "id" : "28AB2F8",
+    "lastKnownWriteTime" : 1540759306,
+    "last_content_update" : 1540759306173,
+    "path" : "~/Shared/NecroDecomp_AMvsEMSettings/scripts/Decay Constants.R",
+    "project_path" : "scripts/Decay Constants.R",
+    "properties" : {
+        "cursorPosition" : "216,16",
+        "scrollLine" : "215",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

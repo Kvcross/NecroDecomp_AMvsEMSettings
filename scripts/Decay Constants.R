@@ -7,7 +7,7 @@ rm(list=ls())
 
 # load required packages
 install.packages("pacman")
-pacman::p_load(tidyverse,dplyr,broom,nlstools,MASS, minpack.lm,Hmisc,car,gtools,lme4,nlme,minpack.lm)
+pacman::p_load(tidyverse,dplyr,broom,nlstools,MASS, minpack.lm,Hmisc,car,gtools,lme4,nlme,minpack.lm, graphics)
 
 # read in data file- with intitial values for MR
 ifundecomp <- read.delim("data/NecroDecompinitial_summer2017.csv", sep = ",")
@@ -41,7 +41,6 @@ MCfor_MB <- filter(ifundecomp,  veg_type  == "Forest", isolate == "Mel_Black")
 # CC Pr ME
 k.CCpr_ME = nls(mt.mo~exp(-k*incub_period.wks), start=list(k=0.01), data=CCpr_ME)
 summary(k.CCpr_ME) # parameter estimates and overall model fit
-confint2(k.CCpr_ME,"k", level = 0.95)
 # CC Pr MB
 k.CCpr_MB = nls(mt.mo~exp(-k*incub_period.wks), start=list(k=0.01), data=CCpr_MB)
 summary(k.CCpr_MB) # parameter estimates and overall model fit
@@ -51,15 +50,22 @@ summary(k.CCpr_Ceno) # parameter estimates and overall model fit
 
 # plotting predicted values to look at line fit  
 par(mfrow=c(1,3))
+opar <- par(las = 1)
 # CC Pr ME
-plot(CCpr_ME$incub_period.wks, CCpr_ME$mt.mo, main="Single Exp Model Fit CC Praire ME", xlab="Time (weeks)", ylab="Mass Remaining")
-lines(CCpr_ME$incub_period.wks,predict(k.CCpr_ME),col="red")
+tt <- seq(0, 6, length = 101)
+plot(CCpr_ME$incub_period.wks, 
+     CCpr_ME$mt.mo, main="Single Exp Model Fit CC Praire ME", 
+     xlab="Time (weeks)", ylab="Mass Remaining")
+lines(tt,predict(k.CCpr_ME, list(incub_period.wks = tt)),col="red")
 # CC Pr MB
+tt <- seq(0, 6, length = 101)
 plot(CCpr_MB$mt.mo ~ CCpr_MB$incub_period.wks,main="Single Exp Model Fit CC Praire MB",xlab="Time (weeks)", ylab="Mass Remaining")
-lines(CCpr_MB$incub_period.wks,predict(k.CCpr_MB),col="red")
+lines(tt,predict(k.CCpr_MB, list(incub_period.wks = tt)),col="red")
 # CC Pr Ceno
+tt <- seq(0, 9, length = 101)
 plot(CCpr_Ceno$mt.mo ~ CCpr_Ceno$incub_period.wks,main="Single Exp Model Fit CC Praire Ceno",xlab="Time (weeks)", ylab="Mass Remaining")
-lines(CCpr_Ceno$incub_period.wks,predict(k.CCpr_Ceno),col="red")
+lines(tt,predict(k.CCpr_Ceno, list(incub_period.wks = tt)),col="red")
+par(opar)
 dev.off()
 
 # single Exponential Models for litter sp in Cedar Creek Oak Savanna Plots
@@ -75,15 +81,20 @@ summary(k.CCsav_MW) # parameter estimates and overall model fit
 
 # plotting predicted values to look at line fit  
 par(mfrow=c(1,3))
+opar <- par(las = 1)
 # CC Oak Sav ME 
+tt <- seq(0, 8, length = 101)
 plot(CCsav_ME$incub_period.wks, CCsav_ME$mt.mo, main="Single Exp Model Fit CC Oak Sav ME",xlab="Time (weeks)", ylab="Mass Remaining")
-lines(CCsav_ME$incub_period.wks,predict(k.CCsav_ME),col="red")
-# CC Oak Sav MB
+lines(tt,predict(k.CCsav_ME, list(incub_period.wks = tt)),col="red")
+# CC Oak Sav MB black
+tt <- seq(0, 8, length = 101)
 plot(CCsav_MB$mt.mo ~ CCsav_MB$incub_period.wks,main="Single Exp Model Fit CC Oak Sav MB",xlab="Time (weeks)", ylab="Mass Remaining")
-lines(CCsav_MB$incub_period.wks,predict(k.CCsav_MB),col="red")
-# CC Oak Sav Ceno
+lines(tt,predict(k.CCsav_MB, list(incub_period.wks = tt)),col="red")
+# CC Oak Sav MB white
+tt <- seq(0, 8, length = 101)
 plot(CCsav_MW$mt.mo ~ CCsav_MW$incub_period.wks,main="Single Exp Model Fit CC Oak Sav MW",xlab="Time (weeks)", ylab="Mass Remaining")
-lines(CCsav_MW$incub_period.wks,predict(k.CCsav_MW),col="red")
+lines(tt,predict(k.CCsav_MW, list(incub_period.wks = tt)),col="red")
+par(opar)
 dev.off()
 
 # single Exponential Models for litter sp in Cedar Creek Oak Savanna Plots
@@ -96,14 +107,16 @@ summary(k.MCfor_MB) # parameter estimates and overall model fit
 
 # plotting predicted values to look at line fit  
 par(mfrow=c(1,2))
+opar <- par(las = 1)
 # MC forest ME 
+tt <- seq(0, 12, length = 101)
 plot(MCfor_ME$incub_period.wks, MCfor_ME$mt.mo, main="Single Exp Model Fit MC Forest ME",xlab="Time (weeks)", ylab="Mass Remaining")
-lines(MCfor_ME$incub_period.wks,predict(k.MCfor_ME),col="red")
+lines(tt,predict(k.MCfor_ME, list(incub_period.wks = tt)),col="red")
 # CC forest MB
+tt <- seq(0, 12, length = 101)
 plot(MCfor_MB$mt.mo ~ MCfor_MB$incub_period.wks,main="Single Exp Model Fit MC Forest MB",xlab="Time (weeks)", ylab="Mass Remaining")
-lines(MCfor_MB$incub_period.wks,predict(k.MCfor_MB),col="red")
-
-# Double Exponential Fit 
+lines(tt,predict(k.MCfor_MB, list(incub_period.wks = tt)),col="red")
+# Double Exponential Fit
 # mt.mo = S * e^-k1t + (1-S) * e^-k2t
 # mt.mo = the final mass/ the initial mass
 # k1 = k1 is the rate constant for the labile component
@@ -133,18 +146,22 @@ summary(K2.CCpr_Ceno) # parameter estimates and overall model fit
 
 # plotting the model fits (double exp)
 par(mfrow=c(1,3))
+opar <- par(las = 1)
+tt <- seq(0, 12, length = 101)
 plot(CCpr_ME$incub_period.wks,CCpr_ME$mt.mo,main="Double Exp Model Fit CC Prairie ME",xlab="Time (weeks)", ylab="Mass Remaining")
-lines(CCpr_ME$incub_period.wks,predict(K2.CCpr_ME),col="red")
+lines(tt,predict(K2.CCpr_ME, list(incub_period.wks = tt)),col="red")
 plot(CCpr_MB$incub_period.wks,CCpr_MB$mt.mo,main="Double Exp Model Fit CC Prairie MB",xlab="Time (weeks)", ylab="Mass Remaining")
-lines(CCpr_MB$incub_period.wks,predict(guess.CCpr_MB),col="red")
+lines(tt,predict(K2.CCpr_MB, list(incub_period.wks = tt)),col="red")
 plot(CCpr_Ceno$incub_period.wks,CCpr_Ceno$mt.mo,main="Double Exp Model Fit CC Prairie  Ceno",xlab="Time (weeks)", ylab="Mass Remaining")
 lines(CCpr_Ceno$incub_period.wks,predict(K2.CCpr_Ceno),col="red")
+lines(tt,predict(K2.CCpr_Ceno, list(incub_period.wks = tt)),col="red")
+par(opar)
 dev.off()
 
 # CC Oak Sav ME
-guess.CCsav_ME = nlsLM(mt.mo~s*exp(-k1*incub_period.wks)+((1-s)*exp(-k2*incub_period.wks)), start=list(s=0.7,k1=,k2=1), data=CCsav_ME) 
+guess.CCsav_ME = nlsLM(mt.mo~s*exp(-k1*incub_period.wks)+((1-s)*exp(-k2*incub_period.wks)), start=list(s=0.7,k1=1,k2=0.05), data=CCsav_ME) 
 coef(guess.CCsav_ME)  
-K2.CCsav_ME = nls(mt.mo~s*exp(-k1*incub_period.wks)+((1-s)*exp(-k2*incub_period.wks)), start=list(s=0.76,k1=1.54,k2=0.040), data=CCsav_ME)
+K2.CCsav_ME = nls(mt.mo~s*exp(-k1*incub_period.wks)+((1-s)*exp(-k2*incub_period.wks)), start=list(s=0.2,k1=3.08,k2=0.09), data=CCsav_ME)
 summary(K2.CCsav_ME)  # parameter estimates and overall model fit
 #CC Oak Sav MB
 guess.CCsav_MB = nlsLM(mt.mo~s*exp(-k1*incub_period.wks)+((1-s)*exp(-k2*incub_period.wks)), start=list(s=0.7,k1=1,k2=1), data=CCsav_MB) 
@@ -159,14 +176,16 @@ summary(K2.CCsav_MW)  # parameter estimates and overall model fit
 
 # plotting the model fits (double exp)
 par(mfrow=c(1,3))
+opar <- par(las = 1)
+tt <- seq(0, 12, length = 101)
 plot(CCsav_ME$incub_period.wks,CCsav_ME$mt.mo,main="Double Exp Model Fit CC Oak Sav ME",xlab="Time (weeks)", ylab="Mass Remaining")
-lines(CCsav_ME$incub_period.wks,predict(K2.CCsav_ME),col="red")
+lines(tt,predict(K2.CCsav_ME, list(incub_period.wks = tt)),col="red")
 plot(CCsav_MB$incub_period.wks,CCsav_MB$mt.mo,main="Double Exp Model Fit CC Oak Sav MB",xlab="Time (weeks)", ylab="Mass Remaining")
-lines(CCsav_MB$incub_period.wks,predict(K2.CCsav_MB),col="red")
+lines(tt,predict(K2.CCsav_MB, list(incub_period.wks = tt)),col="red")
 plot(CCsav_MW$incub_period.wks,CCsav_MW$mt.mo,main="Double Exp Model Fit CC Oak Sav MW",xlab="Time (weeks)", ylab="Mass Remaining")
-lines(CCsav_MW$incub_period.wks,predict(K2.CCsav_MW),col="red")
+lines(tt,predict(K2.CCsav_MW, list(incub_period.wks = tt)),col="red")
+par(opar)
 dev.off()
-
 
 #MC Forest ME
 guess.MCfor_ME = nlsLM(mt.mo~s*exp(-k1*incub_period.wks)+((1-s)*exp(-k2*incub_period.wks)), start=list(s=0.8,k1=1,k2=0.1), data=MCfor_ME) 
@@ -181,23 +200,31 @@ summary(K2.MCfor_MB)  # parameter estimates and overall model fit
 
 # plotting the model fits (double exp)
 par(mfrow=c(1,2))
+opar <- par(las = 1)
+tt <- seq(0, 14, length = 101)
 plot(MCfor_ME$incub_period.wks,MCfor_ME$mt.mo, main="Double Exp Model Fit MC Forest ME",xlab="Time (weeks)", ylab="Mass Remaining")
-lines(MCfor_ME$incub_period.wks,predict(K2.MCfor_ME),col="red")
+lines(tt,predict(K2.MCfor_ME, list(incub_period.wks = tt)),col="red")
 plot(MCfor_MB$incub_period.wks,MCfor_MB$mt.mo,main="Double Exp Model Fit MC Forest MB",xlab="Time (weeks)", ylab="Mass Remaining")
-lines(MCfor_MB$incub_period.wks,predict(K2.MCfor_MB),col="red")
-
+lines(tt,predict(K2.MCfor_MB, list(incub_period.wks = tt)),col="red")
+par(opar)
 # using AIC to compare model fits
 aic.vals <- AIC(k.CCpr_ME,K2.CCpr_ME,k.CCsav_ME,K2.CCsav_ME,k.MCfor_ME,K2.MCfor_ME,
                 k.CCpr_MB,k.CCsav_MB,K2.CCsav_MB,k.MCfor_MB,K2.MCfor_MB,
                 k.CCpr_Ceno,K2.CCpr_Ceno,k.CCsav_MW,K2.CCsav_MW) 
 write.table(aic.vals, "output/AIC_values.decaym.txt", sep = "\t", row.names = TRUE, quote = FALSE)
 
+# using anova to compare single exponential model fits
+anov.singexp <- anova(k.CCpr_ME,k.CCsav_ME,k.MCfor_ME,
+                      k.CCpr_MB,k.CCsav_MB,k.MCfor_MB)
+anov.tblsing <- tidy(anov.singexp)
+write.table(anov.tblsing, "output/anovatable.decaym.txt", sep = "\t", row.names = FALSE, quote = FALSE)
+
 # using anova to compare double exponential model fits
 anov.doubexp <- anova(K2.CCpr_ME,K2.CCsav_ME,K2.MCfor_ME,
             K2.CCsav_MB,K2.MCfor_MB,
             K2.CCpr_Ceno,K2.CCsav_MW)
-anov.tbl <- tidy(anov.doubexp)
-write.table(anov.tbl, "output/anovatable.decaym.txt", sep = "\t", row.names = FALSE, quote = FALSE)
+anov.tbldoub <- tidy(anov.doubexp)
+write.table(anov.tbldoub, "output/anovatable.decaym.txt", sep = "\t", row.names = FALSE, quote = FALSE)
 
 # looks like comparatively the double exponential models are better fits
 # however, the std error looks pretty high for the estimates
@@ -296,6 +323,6 @@ modcomp.plot <- ggplot(combmodelframe.sing, aes(colour = modelName)) +
       ggtitle("Comparing Model Decay Constants (k)") +
       theme_classic(base_size=20) +
       theme(plot.title = element_text(hjust = 0.5))
-
 ggsave(modcomp.plot, filename = "./figures/Decay_modelcomparison.png", units = "in", width = 15, height = 6, dpi = 300)
+
 
