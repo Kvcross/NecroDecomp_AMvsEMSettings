@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1550505625584.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3866160188",
+    "id" : "3F4F063C",
+    "lastKnownWriteTime" : 1550517856,
+    "last_content_update" : 1550517856652,
+    "path" : "~/Shared/NecroDecomp_AMvsEMSettings/scripts/MassRemaininglme.R",
+    "project_path" : "scripts/MassRemaininglme.R",
+    "properties" : {
+        "cursorPosition" : "330,0",
+        "scrollLine" : "326",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

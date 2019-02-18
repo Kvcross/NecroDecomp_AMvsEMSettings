@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1550517535534.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "5A11BE43",
+    "lastKnownWriteTime" : -4618282955050057722,
+    "last_content_update" : 1550517535534,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "88F0C843",
+        "caption" : "MREarlyd",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=MREarlyd&cache_key=88F0C843",
+        "displayedObservations" : "85",
+        "environment" : "",
+        "object" : "MREarlyd",
+        "preview" : "0",
+        "totalObservations" : "85",
+        "variables" : "23"
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

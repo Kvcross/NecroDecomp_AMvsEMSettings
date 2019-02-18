@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1550517729397.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "987DFBD3",
+    "lastKnownWriteTime" : 0,
+    "last_content_update" : 1550517729397,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "46D301A4",
+        "caption" : "fd_melb.mort",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=fd_melb.mort&cache_key=46D301A4",
+        "displayedObservations" : 222,
+        "environment" : "",
+        "object" : "fd_melb.mort",
+        "preview" : 0,
+        "totalObservations" : 222,
+        "variables" : 23
+    },
+    "relative_order" : 9,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
