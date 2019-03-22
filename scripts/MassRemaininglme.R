@@ -131,7 +131,7 @@ qqnorm(resid(mclmer))
 qqline(resid(mclmer)) 
 hist(resid(mclmer))
 # anova results for fixed effects
-MC_f_lme <- anova(mclmer,type=3, ddf="Kenward-Roger") 
+MC_f_lme <- anova(mclmer,type=3,ddf="Kenward-Roger") 
 # using the Kenward-Roger denominator degrees of freedom approximation which is more conservitive for unbalanced mixed model 
 # anova like results for random effect
 MC_f_rlme <- ranova(mclmer) 

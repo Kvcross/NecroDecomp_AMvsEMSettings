@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1552630440345.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1732946251",
+    "id" : "AB81531F",
+    "lastKnownWriteTime" : 1550438462,
+    "last_content_update" : 1550438462,
+    "path" : "~/Shared/NecroDecomp_AMvsEMSettings/scripts/Plots.R",
+    "project_path" : "scripts/Plots.R",
+    "properties" : {
+        "cursorPosition" : "107,7",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

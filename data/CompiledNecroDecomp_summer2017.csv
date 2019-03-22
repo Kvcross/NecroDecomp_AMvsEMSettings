@@ -1,0 +1,469 @@
+location,site,exp,location,soil_moisture,pH,plot_Id_pair,unique_plotID,unique_sampID,treatment,myc_assoc,isolate,mel_status,harvest_date,incub_period.days,incub_period.wks,incub_period.months,incub_period.years,mass_remaining ,mt.mo,notes
+moores creek,Temperate Forest,MC_forest,AM_2,2.547871471,NA,pair_2,2,MCFor_402,AM_tree,AM,Mel_Black,melanized ,7/27/17,14,2,0.466666667,0.052830189,45.98994494,0.459899449,
+moores creek,Temperate Forest,MC_forest,AM_2,2.547871471,NA,pair_2,2,MCFor_396,AM_tree,AM,Mort,non-melanized,7/27/17,14,2,0.466666667,0.052830189,20.08993217,0.200899322,
+moores creek,Temperate Forest,MC_forest,AM_2,5,5.94,pair_2,2,MCFor_401,AM_tree,AM,Mel_Black,melanized ,8/14/17,31,4.428571429,1.033333333,0.116981132,32.52026061,0.325202606,
+moores creek,Temperate Forest,MC_forest,AM_2,5,5.94,pair_2,2,MCFor_394,AM_tree,AM,Mort,non-melanized,8/14/17,31,4.428571429,1.033333333,0.116981132,18.16646373,0.181664637,
+moores creek,Temperate Forest,MC_forest,AM_2,6.666666667,5.67,pair_2,2,MCFor_398,AM_tree,AM,Mel_Black,melanized ,10/13/17,92,13.14285714,3.066666667,0.347169811,22.18910218,0.221891022,
+moores creek,Temperate Forest,MC_forest,AM_2,6.666666667,5.67,pair_2,2,MCFor_395,AM_tree,AM,Mort,non-melanized,10/13/17,92,13.14285714,3.066666667,0.347169811,19.29632525,0.192963253,
+moores creek,Temperate Forest,MC_forest,AM_3,8.04566346,NA,pair_3,4,MCFor_409,AM_tree,AM,Mel_Black,melanized ,7/27/17,14,2,0.466666667,0.052830189,41.78478106,0.417847811,
+moores creek,Temperate Forest,MC_forest,AM_3,8.04566346,NA,pair_3,4,MCFor_407,AM_tree,AM,Mort,non-melanized,7/27/17,14,2,0.466666667,0.052830189,25.73049425,0.257304942,
+moores creek,Temperate Forest,MC_forest,AM_3,4.466666667,5.45,pair_3,4,MCFor_408,AM_tree,AM,Mel_Black,melanized ,8/14/17,31,4.428571429,1.033333333,0.116981132,32.47968103,0.32479681,
+moores creek,Temperate Forest,MC_forest,AM_3,4.466666667,5.45,pair_3,4,MCFor_406,AM_tree,AM,Mort,non-melanized,8/14/17,31,4.428571429,1.033333333,0.116981132,13.09216193,0.130921619,
+moores creek,Temperate Forest,MC_forest,AM_3,9.1,5.27,pair_3,4,MCFor_405,AM_tree,AM,Mel_Black,melanized ,10/13/17,92,13.14285714,3.066666667,0.347169811,12.52564437,0.125256444,
+moores creek,Temperate Forest,MC_forest,AM_3,9.1,5.27,pair_3,4,MCFor_404,AM_tree,AM,Mort,non-melanized,10/13/17,92,13.14285714,3.066666667,0.347169811,12.47657714,0.124765771,
+moores creek,Temperate Forest,MC_forest,AM_4,NA,NA,pair_1,5,MCFor_421,AM_tree,AM,Mel_Black,melanized ,7/27/17,14,2,0.466666667,0.052830189,NA,NA,hole in lbag
+moores creek,Temperate Forest,MC_forest,AM_4,NA,NA,pair_1,5,MCFor_416,AM_tree,AM,Mort,non-melanized,7/27/17,14,2,0.466666667,0.052830189,26.16360228,0.261636023,
+moores creek,Temperate Forest,MC_forest,AM_4,12.2,4.59,pair_1,5,MCFor_418,AM_tree,AM,Mel_Black,melanized ,8/14/17,31,4.428571429,1.033333333,0.116981132,30.38280307,0.303828031,
+moores creek,Temperate Forest,MC_forest,AM_4,12.2,4.59,pair_1,5,MCFor_413,AM_tree,AM,Mort,non-melanized,8/14/17,31,4.428571429,1.033333333,0.116981132,18.1007597,0.181007597,
+moores creek,Temperate Forest,MC_forest,AM_4,15.56666667,4.04,pair_1,5,MCFor_410,AM_tree,AM,Mel_Black,melanized ,10/13/17,92,13.14285714,3.066666667,0.347169811,7.796203197,0.077962032,
+moores creek,Temperate Forest,MC_forest,AM_4,15.56666667,4.04,pair_1,5,MCFor_411,AM_tree,AM,Mort,non-melanized,10/13/17,92,13.14285714,3.066666667,0.347169811,11.25296443,0.112529644,
+moores creek,Temperate Forest,MC_forest,AM_5,9.695610144,NA,pair_4,7,MCFor_432,AM_tree,AM,Mel_Black,melanized ,7/27/17,14,2,0.466666667,0.052830189,57.72898906,0.577289891,
+moores creek,Temperate Forest,MC_forest,AM_5,9.695610144,NA,pair_4,7,MCFor_429,AM_tree,AM,Mort,non-melanized,7/27/17,14,2,0.466666667,0.052830189,26.9752405,0.269752405,
+moores creek,Temperate Forest,MC_forest,AM_5,8.2,4.27,pair_4,7,MCFor_430,AM_tree,AM,Mel_Black,melanized ,8/14/17,31,4.428571429,1.033333333,0.116981132,39.86265023,0.398626502,
+moores creek,Temperate Forest,MC_forest,AM_5,8.2,4.27,pair_4,7,MCFor_427,AM_tree,AM,Mort,non-melanized,8/14/17,31,4.428571429,1.033333333,0.116981132,21.61866294,0.216186629,
+moores creek,Temperate Forest,MC_forest,AM_5,11.9,3.88,pair_4,7,MCFor_422,AM_tree,AM,Mel_Black,melanized ,10/13/17,92,13.14285714,3.066666667,0.347169811,15.00763359,0.150076336,
+moores creek,Temperate Forest,MC_forest,AM_5,11.9,3.88,pair_4,7,MCFor_425,AM_tree,AM,Mort,non-melanized,10/13/17,92,13.14285714,3.066666667,0.347169811,20.38566435,0.203856643,
+moores creek,Temperate Forest,MC_forest,AM_6,8.451010714,NA,pair_7,9,MCFor_444,AM_tree,AM,Mel_Black,melanized ,7/27/17,14,2,0.466666667,0.052830189,39.56217298,0.39562173,
+moores creek,Temperate Forest,MC_forest,AM_6,8.451010714,NA,pair_7,9,MCFor_439,AM_tree,AM,Mort,non-melanized,7/27/17,14,2,0.466666667,0.052830189,14.22580774,0.142258077,
+moores creek,Temperate Forest,MC_forest,AM_6,7.1,5.39,pair_7,9,MCFor_441,AM_tree,AM,Mel_Black,melanized ,8/14/17,31,4.428571429,1.033333333,0.116981132,22.16107064,0.221610706,
+moores creek,Temperate Forest,MC_forest,AM_6,7.1,5.39,pair_7,9,MCFor_434,AM_tree,AM,Mort,non-melanized,8/14/17,31,4.428571429,1.033333333,0.116981132,6.290916134,0.062909161,
+moores creek,Temperate Forest,MC_forest,AM_6,7.3,4.78,pair_7,9,MCFor_435,AM_tree,AM,Mel_Black,melanized ,10/13/17,92,13.14285714,3.066666667,0.347169811,9.419830388,0.094198304,
+moores creek,Temperate Forest,MC_forest,AM_6,7.3,4.78,pair_7,9,MCFor_436,AM_tree,AM,Mort,non-melanized,10/13/17,92,13.14285714,3.066666667,0.347169811,10.33911018,0.103391102,
+moores creek,Temperate Forest,MC_forest,AM_7,9.641434669,NA,pair_6,11,MCFor_457,AM_tree,AM,Mel_Black,melanized ,7/27/17,14,2,0.466666667,0.052830189,53.43544176,0.534354418,
+moores creek,Temperate Forest,MC_forest,AM_7,9.641434669,NA,pair_6,11,MCFor_450,AM_tree,AM,Mort,non-melanized,7/27/17,14,2,0.466666667,0.052830189,19.04780595,0.19047806,
+moores creek,Temperate Forest,MC_forest,AM_7,8.166666667,4.4,pair_6,11,MCFor_455,AM_tree,AM,Mel_Black,melanized ,8/14/17,31,4.428571429,1.033333333,0.116981132,44.02582997,0.4402583,
+moores creek,Temperate Forest,MC_forest,AM_7,8.166666667,4.4,pair_6,11,MCFor_448,AM_tree,AM,Mort,non-melanized,8/14/17,31,4.428571429,1.033333333,0.116981132,13.15936478,0.131593648,
+moores creek,Temperate Forest,MC_forest,AM_7,8.6,3.89,pair_6,11,MCFor_452,AM_tree,AM,Mel_Black,melanized ,10/13/17,92,13.14285714,3.066666667,0.347169811,24.484,0.24484,
+moores creek,Temperate Forest,MC_forest,AM_7,8.6,3.89,pair_6,11,MCFor_446,AM_tree,AM,Mort,non-melanized,10/13/17,92,13.14285714,3.066666667,0.347169811,8.531296772,0.085312968,
+moores creek,Temperate Forest,MC_forest,AM_8,8.972430755,NA,pair_5,13,MCFor_467,AM_tree,AM,Mel_Black,melanized ,7/27/17,14,2,0.466666667,0.052830189,50.08610568,0.500861057,
+moores creek,Temperate Forest,MC_forest,AM_8,8.972430755,NA,pair_5,13,MCFor_460,AM_tree,AM,Mort,non-melanized,7/27/17,14,2,0.466666667,0.052830189,14.40118708,0.144011871,
+moores creek,Temperate Forest,MC_forest,AM_8,9.966666667,3.94,pair_5,13,MCFor_465,AM_tree,AM,Mel_Black,melanized ,8/14/17,31,4.428571429,1.033333333,0.116981132,26.80155642,0.268015564,
+moores creek,Temperate Forest,MC_forest,AM_8,9.966666667,3.94,pair_5,13,MCFor_459,AM_tree,AM,Mort,non-melanized,8/14/17,31,4.428571429,1.033333333,0.116981132,13.77910448,0.137791045,
+moores creek,Temperate Forest,MC_forest,AM_8,7.3,3.76,pair_5,13,MCFor_464,AM_tree,AM,Mel_Black,melanized ,10/13/17,92,13.14285714,3.066666667,0.347169811,26.08469836,0.260846984,
+moores creek,Temperate Forest,MC_forest,AM_8,7.3,3.76,pair_5,13,MCFor_463,AM_tree,AM,Mort,non-melanized,10/13/17,92,13.14285714,3.066666667,0.347169811,21.73000792,0.217300079,
+moores creek,Temperate Forest,MC_forest,EM_1,5.88332705,NA,pair_3,1,MCFor_391,EM_tree,EM,Mel_Black,melanized ,7/27/17,14,2,0.466666667,0.052830189,55.70857055,0.557085705,
+moores creek,Temperate Forest,MC_forest,EM_1,5.88332705,NA,pair_3,1,MCFor_390,EM_tree,EM,Mort,non-melanized,7/27/17,14,2,0.466666667,0.052830189,32.48963648,0.324896365,
+moores creek,Temperate Forest,MC_forest,EM_1,2.833333333,3.45,pair_3,1,MCFor_389,EM_tree,EM,Mel_Black,melanized ,8/14/17,31,4.428571429,1.033333333,0.116981132,29.83614196,0.29836142,
+moores creek,Temperate Forest,MC_forest,EM_1,2.833333333,3.45,pair_3,1,MCFor_387,EM_tree,EM,Mort,non-melanized,8/14/17,31,4.428571429,1.033333333,0.116981132,17.85387583,0.178538758,
+moores creek,Temperate Forest,MC_forest,EM_1,3.733333333,3.51,pair_3,1,MCFor_388,EM_tree,EM,Mel_Black,melanized ,10/13/17,92,13.14285714,3.066666667,0.347169811,28.13099042,0.281309904,
+moores creek,Temperate Forest,MC_forest,EM_1,3.733333333,3.51,pair_3,1,MCFor_386,EM_tree,EM,Mort,non-melanized,10/13/17,92,13.14285714,3.066666667,0.347169811,7.428048246,0.074280482,
+moores creek,Temperate Forest,MC_forest,EM_2,6.006227826,NA,pair_2,3,MCFor_403,EM_tree,EM,Mel_Black,melanized ,7/27/17,14,2,0.466666667,0.052830189,48.50553071,0.485055307,
+moores creek,Temperate Forest,MC_forest,EM_2,6.006227826,NA,pair_2,3,MCFor_399,EM_tree,EM,Mort,non-melanized,7/27/17,14,2,0.466666667,0.052830189,28.17127769,0.281712777,
+moores creek,Temperate Forest,MC_forest,EM_2,1.833333333,3.4,pair_2,3,MCFor_400,EM_tree,EM,Mel_Black,melanized ,8/14/17,31,4.428571429,1.033333333,0.116981132,32.38781862,0.323878186,
+moores creek,Temperate Forest,MC_forest,EM_2,1.833333333,3.4,pair_2,3,MCFor_393,EM_tree,EM,Mort,non-melanized,8/14/17,31,4.428571429,1.033333333,0.116981132,18.13816605,0.18138166,
+moores creek,Temperate Forest,MC_forest,EM_2,5.133333333,3.5,pair_2,3,MCFor_397,EM_tree,EM,Mel_Black,melanized ,10/13/17,92,13.14285714,3.066666667,0.347169811,20.81395781,0.208139578,
+moores creek,Temperate Forest,MC_forest,EM_2,5.133333333,3.5,pair_2,3,MCFor_392,EM_tree,EM,Mort,non-melanized,10/13/17,92,13.14285714,3.066666667,0.347169811,13.87831222,0.138783122,
+moores creek,Temperate Forest,MC_forest,EM_4,7.994160577,NA,pair_4,6,MCFor_420,EM_tree,EM,Mel_Black,melanized ,7/27/17,14,2,0.466666667,0.052830189,58.50310875,0.585031087,
+moores creek,Temperate Forest,MC_forest,EM_4,7.994160577,NA,pair_4,6,MCFor_415,EM_tree,EM,Mort,non-melanized,7/27/17,14,2,0.466666667,0.052830189,25.18291713,0.251829171,
+moores creek,Temperate Forest,MC_forest,EM_4,2.833333333,3.48,pair_4,6,MCFor_419,EM_tree,EM,Mel_Black,melanized ,8/14/17,31,4.428571429,1.033333333,0.116981132,35.63343576,0.356334358,
+moores creek,Temperate Forest,MC_forest,EM_4,2.833333333,3.48,pair_4,6,MCFor_414,EM_tree,EM,Mort,non-melanized,8/14/17,31,4.428571429,1.033333333,0.116981132,24.85767746,0.248576775,
+moores creek,Temperate Forest,MC_forest,EM_4,6.8,3.31,pair_4,6,MCFor_417,EM_tree,EM,Mel_Black,melanized ,10/13/17,92,13.14285714,3.066666667,0.347169811,29.60932945,0.296093294,
+moores creek,Temperate Forest,MC_forest,EM_4,6.8,3.31,pair_4,6,MCFor_412,EM_tree,EM,Mort,non-melanized,10/13/17,92,13.14285714,3.066666667,0.347169811,16.6550765,0.166550765,
+moores creek,Temperate Forest,MC_forest,EM_5,5.674933699,NA,pair_1,8,MCFor_433,EM_tree,EM,Mel_Black,melanized ,7/27/17,14,2,0.466666667,0.052830189,58.52006657,0.585200666,
+moores creek,Temperate Forest,MC_forest,EM_5,5.674933699,NA,pair_1,8,MCFor_428,EM_tree,EM,Mort,non-melanized,7/27/17,14,2,0.466666667,0.052830189,24.22097979,0.242209798,
+moores creek,Temperate Forest,MC_forest,EM_5,3,3.55,pair_1,8,MCFor_431,EM_tree,EM,Mel_Black,melanized ,8/14/17,31,4.428571429,1.033333333,0.116981132,40.20968239,0.402096824,
+moores creek,Temperate Forest,MC_forest,EM_5,3,3.55,pair_1,8,MCFor_423,EM_tree,EM,Mort,non-melanized,8/14/17,31,4.428571429,1.033333333,0.116981132,17.31989258,0.173198926,
+moores creek,Temperate Forest,MC_forest,EM_5,10.1,3.59,pair_1,8,MCFor_424,EM_tree,EM,Mel_Black,melanized ,10/13/17,92,13.14285714,3.066666667,0.347169811,18.0553946,0.180553946,
+moores creek,Temperate Forest,MC_forest,EM_5,10.1,3.59,pair_1,8,MCFor_426,EM_tree,EM,Mort,non-melanized,10/13/17,92,13.14285714,3.066666667,0.347169811,21.31378299,0.21313783,
+moores creek,Temperate Forest,MC_forest,EM_6,8.811572386,NA,pair_6,10,MCFor_445,EM_tree,EM,Mel_Black,melanized ,7/27/17,14,2,0.466666667,0.052830189,53.51869982,0.535186998,
+moores creek,Temperate Forest,MC_forest,EM_6,8.811572386,NA,pair_6,10,MCFor_442,EM_tree,EM,Mort,non-melanized,7/27/17,14,2,0.466666667,0.052830189,25.94448577,0.259444858,
+moores creek,Temperate Forest,MC_forest,EM_6,6,3.38,pair_6,10,MCFor_443,EM_tree,EM,Mel_Black,melanized ,8/14/17,31,4.428571429,1.033333333,0.116981132,29.27225597,0.29272256,
+moores creek,Temperate Forest,MC_forest,EM_6,6,3.38,pair_6,10,MCFor_437,EM_tree,EM,Mort,non-melanized,8/14/17,31,4.428571429,1.033333333,0.116981132,12.17923411,0.121792341,
+moores creek,Temperate Forest,MC_forest,EM_6,4.166666667,3.57,pair_6,10,MCFor_440,EM_tree,EM,Mel_Black,melanized ,10/13/17,92,13.14285714,3.066666667,0.347169811,18.55920398,0.18559204,
+moores creek,Temperate Forest,MC_forest,EM_6,4.166666667,3.57,pair_6,10,MCFor_438,EM_tree,EM,Mort,non-melanized,10/13/17,92,13.14285714,3.066666667,0.347169811,14.1685953,0.141685953,
+moores creek,Temperate Forest,MC_forest,EM_7,5.808594642,NA,pair_5,12,MCFor_456,EM_tree,EM,Mel_Black,melanized ,7/27/17,14,2,0.466666667,0.052830189,50.22328549,0.502232855,
+moores creek,Temperate Forest,MC_forest,EM_7,5.808594642,NA,pair_5,12,MCFor_447,EM_tree,EM,Mort,non-melanized,7/27/17,14,2,0.466666667,0.052830189,9.020517255,0.090205173,
+moores creek,Temperate Forest,MC_forest,EM_7,2.233333333,3.52,pair_5,12,MCFor_454,EM_tree,EM,Mel_Black,melanized ,8/14/17,31,4.428571429,1.033333333,0.116981132,40.28454047,0.402845405,
+moores creek,Temperate Forest,MC_forest,EM_7,2.233333333,3.52,pair_5,12,MCFor_449,EM_tree,EM,Mort,non-melanized,8/14/17,31,4.428571429,1.033333333,0.116981132,17.86849462,0.178684946,
+moores creek,Temperate Forest,MC_forest,EM_7,2.133333333,3.49,pair_5,12,MCFor_451,EM_tree,EM,Mel_Black,melanized ,10/13/17,92,13.14285714,3.066666667,0.347169811,20.85715412,0.208571541,
+moores creek,Temperate Forest,MC_forest,EM_7,2.133333333,3.49,pair_5,12,MCFor_453,EM_tree,EM,Mort,non-melanized,10/13/17,92,13.14285714,3.066666667,0.347169811,24.95657666,0.249565767,
+moores creek,Temperate Forest,MC_forest,EM_8,9.237023291,NA,pair_7,14,MCFor_468,EM_tree,EM,Mel_Black,melanized ,7/27/17,14,2,0.466666667,0.052830189,52.10639484,0.521063948,
+moores creek,Temperate Forest,MC_forest,EM_8,9.237023291,NA,pair_7,14,MCFor_462,EM_tree,EM,Mort,non-melanized,7/27/17,14,2,0.466666667,0.052830189,19.72986972,0.197298697,
+moores creek,Temperate Forest,MC_forest,EM_8,4.533333333,3.13,pair_7,14,MCFor_466,EM_tree,EM,Mel_Black,melanized ,8/14/17,31,4.428571429,1.033333333,0.116981132,31.87994166,0.318799417,
+moores creek,Temperate Forest,MC_forest,EM_8,4.533333333,3.13,pair_7,14,MCFor_458,EM_tree,EM,Mort,non-melanized,8/14/17,31,4.428571429,1.033333333,0.116981132,13.05627361,0.130562736,
+moores creek,Temperate Forest,MC_forest,EM_8,3.7,3.04,pair_7,14,MCFor_469,EM_tree,EM,Mel_Black,melanized ,10/13/17,92,13.14285714,3.066666667,0.347169811,NA,NA,hole in lbag
+moores creek,Temperate Forest,MC_forest,EM_8,3.7,3.04,pair_7,14,MCFor_461,EM_tree,EM,Mort,non-melanized,10/13/17,92,13.14285714,3.066666667,0.347169811,17.46994848,0.174699485,
+cedar creek,Prairie,CC_praire2,field_0,16.53333333,4.9025,field0_1,22, CCP2_63,EM_forb,EM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,18.75,0.1875,
+cedar creek,Prairie,CC_praire2,field_0,16.73333333,4.925,field0_1,22, CCP2_65,AM_grass,AM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,21.25984252,0.212598425,
+cedar creek,Prairie,CC_praire2,field_0,16.53333333,4.9025,field0_1,22, CCP2_71,EM_forb,EM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,37.69230769,0.376923077,
+cedar creek,Prairie,CC_praire2,field_0,16.73333333,4.925,field0_1,22, CCP2_77,AM_grass,AM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,49.80079681,0.498007968,
+cedar creek,Prairie,CC_praire2,field_0,16.73333333,4.925,field0_1,22, CCP2_72,AM_grass,AM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,39.35742972,0.393574297,
+cedar creek,Prairie,CC_praire2,field_0,16.53333333,4.9025,field0_1,22, CCP2_73,EM_forb,EM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,43.79844961,0.437984496,
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_1,22, CCP2_80,AM_grass,AM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_1,22, CCP2_81,EM_forb,EM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_1,22, CCP2_82,AM_grass,AM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_1,22, CCP2_83,EM_forb,EM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_1,22, CCP2_84,AM_grass,AM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_1,22, CCP2_85,EM_forb,EM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,12.93333333,4.903,field0_2,25, CCP2_99,EM_forb,EM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,24.31372549,0.243137255,
+cedar creek,Prairie,CC_praire2,field_0,13.2,4.843,field0_2,25, CCP2_103,AM_grass,AM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,29.52755906,0.295275591,
+cedar creek,Prairie,CC_praire2,field_0,13.2,4.843,field0_2,25, CCP2_111,AM_grass,AM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,46.33204633,0.463320463,
+cedar creek,Prairie,CC_praire2,field_0,12.93333333,4.903,field0_2,25, CCP2_115,EM_forb,EM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,58.17490494,0.581749049,
+cedar creek,Prairie,CC_praire2,field_0,13.2,4.843,field0_2,25, CCP2_110,AM_grass,AM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,46.18473896,0.46184739,
+cedar creek,Prairie,CC_praire2,field_0,12.93333333,4.903,field0_2,25, CCP2_113,EM_forb,EM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,50.57034221,0.505703422,
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_2,25, CCP2_116,AM_grass,AM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_2,25, CCP2_117,EM_forb,EM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_2,25, CCP2_118,AM_grass,AM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_2,25, CCP2_119,EM_forb,EM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_2,25, CCP2_120,AM_grass,AM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_2,25, CCP2_121,EM_forb,EM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,12.8,4.8985,field0_3,28, CCP2_135,EM_forb,EM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,21.56862745,0.215686275,
+cedar creek,Prairie,CC_praire2,field_0,12.8,4.7905,field0_3,28, CCP2_136,AM_grass,AM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,22.89156627,0.228915663,
+cedar creek,Prairie,CC_praire2,field_0,12.8,4.7905,field0_3,28, CCP2_150,AM_grass,AM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,53.1496063,0.531496063,
+cedar creek,Prairie,CC_praire2,field_0,12.8,4.8985,field0_3,28, CCP2_151,EM_forb,EM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,56.640625,0.56640625,
+cedar creek,Prairie,CC_praire2,field_0,12.8,4.7905,field0_3,28, CCP2_145,AM_grass,AM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,39.54372624,0.395437262,
+cedar creek,Prairie,CC_praire2,field_0,12.8,4.8985,field0_3,28, CCP2_149,EM_forb,EM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,44.88188976,0.448818898,
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_3,28, CCP2_152,AM_grass,AM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_3,28, CCP2_153,EM_forb,EM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_3,28, CCP2_154,AM_grass,AM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_3,28, CCP2_155,EM_forb,EM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_3,28, CCP2_156,AM_grass,AM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_3,28, CCP2_157,EM_forb,EM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,12.9,5.354,field0_4,31, CCP2_174,EM_forb,EM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,24.61538462,0.246153846,
+cedar creek,Prairie,CC_praire2,field_0,12.13333333,4.6605,field0_4,31, CCP2_175,AM_grass,AM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,25.78125,0.2578125,
+cedar creek,Prairie,CC_praire2,field_0,12.13333333,4.6605,field0_4,31, CCP2_183,AM_grass,AM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,53.44129555,0.534412955,
+cedar creek,Prairie,CC_praire2,field_0,12.9,5.354,field0_4,31, CCP2_184,EM_forb,EM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,56.2992126,0.562992126,
+cedar creek,Prairie,CC_praire2,field_0,12.13333333,4.6605,field0_4,31, CCP2_179,AM_grass,AM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,40.16064257,0.401606426,
+cedar creek,Prairie,CC_praire2,field_0,12.9,5.354,field0_4,31, CCP2_185,EM_forb,EM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,56.2992126,0.562992126,
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_4,31, CCP2_187,AM_grass,AM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_4,31, CCP2_188,EM_forb,EM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_4,31, CCP2_189,AM_grass,AM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_4,31, CCP2_190,EM_forb,EM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_4,31, CCP2_191,AM_grass,AM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_4,31, CCP2_192,EM_forb,EM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,14.83333333,5.102,field0_5,34, CCP2_209,AM_grass,AM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,22.00772201,0.22007722,
+cedar creek,Prairie,CC_praire2,field_0,12.36666667,5.3,field0_5,34, CCP2_215,EM_forb,EM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,29.64426877,0.296442688,
+cedar creek,Prairie,CC_praire2,field_0,14.83333333,5.102,field0_5,34, CCP2_222,AM_grass,AM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,56.52173913,0.565217391,
+cedar creek,Prairie,CC_praire2,field_0,12.36666667,5.3,field0_5,34, CCP2_223,EM_forb,EM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,77.13178295,0.771317829,
+cedar creek,Prairie,CC_praire2,field_0,12.36666667,5.3,field0_5,34, CCP2_219,EM_forb,EM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,38.18897638,0.381889764,
+cedar creek,Prairie,CC_praire2,field_0,14.83333333,5.102,field0_5,34, CCP2_220,AM_grass,AM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,40.15444015,0.401544402,
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_5,34, CCP2_224,AM_grass,AM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_5,34, CCP2_225,EM_forb,EM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_5,34, CCP2_226,AM_grass,AM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_5,34, CCP2_227,EM_forb,EM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_5,34, CCP2_228,AM_grass,AM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_5,34, CCP2_229,EM_forb,EM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,12.36666667,5.0165,field0_6,37, CCP2_243,AM_grass,AM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,17.2,0.172,
+cedar creek,Prairie,CC_praire2,field_0,12.56666667,4.812,field0_6,37, CCP2_255,EM_forb,EM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,45.81673307,0.458167331,
+cedar creek,Prairie,CC_praire2,field_0,12.36666667,5.0165,field0_6,37, CCP2_254,AM_grass,AM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,45.12195122,0.451219512,
+cedar creek,Prairie,CC_praire2,field_0,12.56666667,4.812,field0_6,37, CCP2_256,EM_forb,EM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,61.8852459,0.618852459,
+cedar creek,Prairie,CC_praire2,field_0,12.56666667,4.812,field0_6,37, CCP2_249,EM_forb,EM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,29.296875,0.29296875,
+cedar creek,Prairie,CC_praire2,field_0,12.36666667,5.0165,field0_6,37, CCP2_251,AM_grass,AM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,38.73517787,0.387351779,
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_6,37, CCP2_257,AM_grass,AM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_6,37, CCP2_258,EM_forb,EM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_6,37, CCP2_259,AM_grass,AM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_6,37, CCP2_260,EM_forb,EM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_6,37, CCP2_261,AM_grass,AM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_0,NA,NA,field0_6,37, CCP2_262,EM_forb,EM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,14.73333333,4.6835,field5_1,23, CCP2_64,EM_forb,EM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,21.09375,0.2109375,
+cedar creek,Prairie,CC_praire2,field_5,17.16666667,4.8075,field5_1,23, CCP2_66,AM_grass,AM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,21.37096774,0.213709677,
+cedar creek,Prairie,CC_praire2,field_5,14.73333333,4.6835,field5_1,23, CCP2_78,EM_forb,EM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,50,0.5,
+cedar creek,Prairie,CC_praire2,field_5,17.16666667,4.8075,field5_1,23, CCP2_74,AM_grass,AM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,44.70588235,0.447058824,
+cedar creek,Prairie,CC_praire2,field_5,14.73333333,4.6835,field5_1,23, CCP2_75,EM_forb,EM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,45.88235294,0.458823529,
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_1,23, CCP2_86,AM_grass,AM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_1,23, CCP2_87,EM_forb,EM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_1,23, CCP2_88,AM_grass,AM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_1,23, CCP2_89,EM_forb,EM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_1,23, CCP2_90,AM_grass,AM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_1,23, CCP2_91,EM_forb,EM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,15.93333333,4.697,field5_2,26, CCP2_101,AM_grass,AM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,28.35249042,0.283524904,
+cedar creek,Prairie,CC_praire2,field_5,12.9,4.724,field5_2,26, CCP2_102,EM_forb,EM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,29.27756654,0.292775665,
+cedar creek,Prairie,CC_praire2,field_5,12.9,4.724,field5_2,26, CCP2_106,EM_forb,EM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,42.30769231,0.423076923,
+cedar creek,Prairie,CC_praire2,field_5,15.93333333,4.697,field5_2,26, CCP2_107,AM_grass,AM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,42.7480916,0.427480916,
+cedar creek,Prairie,CC_praire2,field_5,12.9,4.724,field5_2,26, CCP2_104,EM_forb,EM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,31.2,0.312,
+cedar creek,Prairie,CC_praire2,field_5,15.93333333,4.697,field5_2,26, CCP2_109,AM_grass,AM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,43.62934363,0.436293436,
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_2,26, CCP2_122,AM_grass,AM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_2,26, CCP2_123,EM_forb,EM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_2,26, CCP2_124,AM_grass,AM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_2,26, CCP2_125,EM_forb,EM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_2,26, CCP2_126,AM_grass,AM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_2,26, CCP2_127,EM_forb,EM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,13.2,4.9675,field5_3,29, CCP2_140,AM_grass,AM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,29.92125984,0.299212598,
+cedar creek,Prairie,CC_praire2,field_5,12.9,5.6155,field5_3,29, CCP2_143,EM_forb,EM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,33.203125,0.33203125,
+cedar creek,Prairie,CC_praire2,field_5,12.9,5.6155,field5_3,29, CCP2_142,EM_forb,EM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,32.17054264,0.321705426,
+cedar creek,Prairie,CC_praire2,field_5,13.2,4.9675,field5_3,29, CCP2_147,AM_grass,AM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,41.96078431,0.419607843,
+cedar creek,Prairie,CC_praire2,field_5,12.9,5.6155,field5_3,29, CCP2_146,EM_forb,EM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,40.85603113,0.408560311,
+cedar creek,Prairie,CC_praire2,field_5,13.2,4.9675,field5_3,29, CCP2_148,AM_grass,AM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,43.41085271,0.434108527,
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_3,29, CCP2_158,AM_grass,AM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_3,29, CCP2_159,EM_forb,EM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_3,29, CCP2_160,AM_grass,AM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_3,29, CCP2_161,EM_forb,EM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_3,29, CCP2_162,AM_grass,AM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_3,29, CCP2_163,EM_forb,EM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,NA,4.529,field5_4,32, CCP2_193,AM_grass,AM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,NA,4.668,field5_4,32, CCP2_194,EM_forb,EM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,NA,4.529,field5_4,32, CCP2_195,AM_grass,AM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,NA,4.668,field5_4,32, CCP2_196,EM_forb,EM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,NA,4.529,field5_4,32, CCP2_197,AM_grass,AM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,NA,4.668,field5_4,32, CCP2_198,EM_forb,EM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_4,32, CCP2_171,EM_forb,EM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,22.39382239,0.223938224,
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_4,32, CCP2_172,AM_grass,AM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,22.60536398,0.22605364,
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_4,32, CCP2_178,AM_grass,AM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,33.84615385,0.338461538,
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_4,32, CCP2_181,EM_forb,EM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,44.921875,0.44921875,
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_4,32, CCP2_173,AM_grass,AM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,23.4375,0.234375,
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_4,32, CCP2_177,EM_forb,EM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,31.49606299,0.31496063,
+cedar creek,Prairie,CC_praire2,field_5,NA,4.5195,field5_5,35, CCP2_230,AM_grass,AM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,NA,4.6525,field5_5,35, CCP2_231,EM_forb,EM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,NA,4.5195,field5_5,35, CCP2_232,AM_grass,AM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,NA,4.6525,field5_5,35, CCP2_233,EM_forb,EM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,NA,4.5195,field5_5,35, CCP2_234,AM_grass,AM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,NA,4.6525,field5_5,35, CCP2_235,EM_forb,EM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_5,35, CCP2_207,EM_forb,EM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,13.2,0.132,
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_5,35, CCP2_208,AM_grass,AM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,17.05426357,0.170542636,
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_5,35, CCP2_212,AM_grass,AM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,24.80620155,0.248062016,
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_5,35, CCP2_216,EM_forb,EM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,30.5019305,0.305019305,
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_5,35, CCP2_211,EM_forb,EM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,23.46153846,0.234615385,
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_5,35, CCP2_218,AM_grass,AM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,32.93172691,0.329317269,
+cedar creek,Prairie,CC_praire2,field_5,16.23333333,4.7215,field5_6,38, CCP2_263,AM_grass,AM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,13.26666667,4.606,field5_6,38, CCP2_264,EM_forb,EM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,16.23333333,4.7215,field5_6,38, CCP2_265,AM_grass,AM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,13.26666667,4.606,field5_6,38, CCP2_266,EM_forb,EM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,16.23333333,4.7215,field5_6,38, CCP2_267,AM_grass,AM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,13.26666667,4.606,field5_6,38, CCP2_268,EM_forb,EM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_6,38, CCP2_244,AM_grass,AM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,18.50393701,0.18503937,
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_6,38, CCP2_245,EM_forb,EM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,19.84126984,0.198412698,
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_6,38, CCP2_250,AM_grass,AM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,34.765625,0.34765625,
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_6,38, CCP2_253,EM_forb,EM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,43.51145038,0.435114504,
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_6,38, CCP2_246,AM_grass,AM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,20.54263566,0.205426357,
+cedar creek,Prairie,CC_praire2,field_5,NA,NA,field5_6,38, CCP2_248,EM_forb,EM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,29.08366534,0.290836653,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_1,18,CCP1_15,AM_grass,AM,Ceno,melanized ,7/25/17,7,1,0.233333333,0.019178082,42.08333333,0.420833333,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_1,18,CCP1_16,EM_forb,EM,Ceno,melanized ,7/25/17,7,1,0.233333333,0.019178082,52.5,0.525,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_1,18,CCP1_8,EM_forb,EM,Mort,non-melanized,7/25/17,7,1,0.233333333,0.019178082,28.33333333,0.283333333,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_1,18,CCP1_10,AM_grass,AM,Mort,non-melanized,7/25/17,7,1,0.233333333,0.019178082,28.8,0.288,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_1,18,CCP1_12,AM_grass,AM,Ceno,melanized ,8/1/17,14,2,0.466666667,0.038356164,34.61538462,0.346153846,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_1,18,CCP1_13,EM_forb,EM,Ceno,melanized ,8/1/17,14,2,0.466666667,0.038356164,35,0.35,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_1,18,CCP1_11,AM_grass,AM,Mort,non-melanized,8/1/17,14,2,0.466666667,0.038356164,28.8,0.288,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_1,18,CCP1_14,EM_forb,EM,Mort,non-melanized,8/1/17,14,2,0.466666667,0.038356164,41.53846154,0.415384615,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_1,18,CCP1_5,AM_grass,AM,Ceno,melanized ,8/8/17,21,3,0.7,0.057534247,23.33333333,0.233333333,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_1,18,CCP1_9,EM_forb,EM,Ceno,melanized ,8/8/17,21,3,0.7,0.057534247,28.46153846,0.284615385,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_1,18,CCP1_2,EM_forb,EM,Mort,non-melanized,8/8/17,21,3,0.7,0.057534247,17.69230769,0.176923077,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_1,18,CCP1_7,AM_grass,AM,Mort,non-melanized,8/8/17,21,3,0.7,0.057534247,27.69230769,0.276923077,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_1,18,CCP1_3,AM_grass,AM,Ceno,melanized ,8/17/17,30,4.285714286,1,0.082191781,18.8,0.188,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_1,18,CCP1_4,EM_forb,EM,Ceno,melanized ,8/17/17,30,4.285714286,1,0.082191781,20.8,0.208,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_1,18,CCP1_1,EM_forb,EM,Ceno,melanized ,9/21/17,65,9.285714286,2.166666667,0.178082192,7.916666667,0.079166667,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_1,18,CCP1_6,AM_grass,AM,Ceno,melanized ,9/21/17,65,9.285714286,2.166666667,0.178082192,25,0.25,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_2,19,CCP1_25,EM_forb,EM,Ceno,melanized ,7/25/17,7,1,0.233333333,0.019178082,26.4,0.264,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_2,19,CCP1_30,AM_grass,AM,Ceno,melanized ,7/25/17,7,1,0.233333333,0.019178082,60,0.6,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_2,19,CCP1_28,EM_forb,EM,Mort,non-melanized,7/25/17,7,1,0.233333333,0.019178082,43.2,0.432,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_2,19,CCP1_31,AM_grass,AM,Mort,non-melanized,7/25/17,7,1,0.233333333,0.019178082,74.16666667,0.741666667,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_2,19,CCP1_27,EM_forb,EM,Ceno,melanized ,8/1/17,14,2,0.466666667,0.038356164,30.4,0.304,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_2,19,CCP1_29,AM_grass,AM,Ceno,melanized ,8/1/17,14,2,0.466666667,0.038356164,51.25,0.5125,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_2,19,CCP1_17,EM_forb,EM,Mort,non-melanized,8/1/17,14,2,0.466666667,0.038356164,17.5,0.175,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_2,19,CCP1_23,AM_grass,AM,Mort,non-melanized,8/1/17,14,2,0.466666667,0.038356164,26,0.26,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_2,19,CCP1_20,EM_forb,EM,Ceno,melanized ,8/8/17,21,3,0.7,0.057534247,21.15384615,0.211538462,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_2,19,CCP1_22,AM_grass,AM,Ceno,melanized ,8/8/17,21,3,0.7,0.057534247,26,0.26,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_2,19,CCP1_21,EM_forb,EM,Mort,non-melanized,8/8/17,21,3,0.7,0.057534247,21.6,0.216,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_2,19,CCP1_26,AM_grass,AM,Mort,non-melanized,8/8/17,21,3,0.7,0.057534247,27.6,0.276,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_2,19,CCP1_18,AM_grass,AM,Ceno,melanized ,8/17/17,30,4.285714286,1,0.082191781,17.69230769,0.176923077,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_2,19,CCP1_19,EM_forb,EM,Ceno,melanized ,8/17/17,30,4.285714286,1,0.082191781,18,0.18,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_2,19,CCP1_24,AM_grass,AM,Ceno,melanized ,8/17/17,30,4.285714286,1,0.082191781,26.15384615,0.261538462,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_3,20,CCP1_41,EM_forb,EM,Ceno,melanized ,7/25/17,7,1,0.233333333,0.019178082,33.84615385,0.338461538,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_3,20,CCP1_45,AM_grass,AM,Ceno,melanized ,7/25/17,7,1,0.233333333,0.019178082,49.23076923,0.492307692,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_3,20,CCP1_39,EM_forb,EM,Mort,non-melanized,7/25/17,7,1,0.233333333,0.019178082,27.91666667,0.279166667,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_3,20,CCP1_42,AM_grass,AM,Mort,non-melanized,7/25/17,7,1,0.233333333,0.019178082,34,0.34,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_3,20,CCP1_34,EM_forb,EM,Ceno,melanized ,8/1/17,14,2,0.466666667,0.038356164,20.38461538,0.203846154,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_3,20,CCP1_43,AM_grass,AM,Ceno,melanized ,8/1/17,14,2,0.466666667,0.038356164,35.6,0.356,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_3,20,CCP1_36,AM_grass,AM,Mort,non-melanized,8/1/17,14,2,0.466666667,0.038356164,26.8,0.268,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_3,20,CCP1_40,EM_forb,EM,Mort,non-melanized,8/1/17,14,2,0.466666667,0.038356164,29.23076923,0.292307692,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_3,20,CCP1_33,EM_forb,EM,Ceno,melanized ,8/8/17,21,3,0.7,0.057534247,16.92307692,0.169230769,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_3,20,CCP1_38,AM_grass,AM,Ceno,melanized ,8/8/17,21,3,0.7,0.057534247,27.6,0.276,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_3,20,CCP1_37,AM_grass,AM,Mort,non-melanized,8/8/17,21,3,0.7,0.057534247,27.5,0.275,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_3,20,CCP1_44,EM_forb,EM,Mort,non-melanized,8/8/17,21,3,0.7,0.057534247,48.4,0.484,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_3,20,CCP1_32,EM_forb,EM,Ceno,melanized ,8/17/17,30,4.285714286,1,0.082191781,15.76923077,0.157692308,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_3,20,CCP1_35,AM_grass,AM,Ceno,melanized ,8/17/17,30,4.285714286,1,0.082191781,22.30769231,0.223076923,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_4,21,CCP1_57,AM_grass,AM,Ceno,melanized ,7/25/17,7,1,0.233333333,0.019178082,38.4,0.384,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_4,21,CCP1_60,EM_forb,EM,Ceno,melanized ,7/25/17,7,1,0.233333333,0.019178082,48.33333333,0.483333333,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_4,21,CCP1_59,EM_forb,EM,Mort,non-melanized,7/25/17,7,1,0.233333333,0.019178082,47.2,0.472,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_4,21,CCP1_61,AM_grass,AM,Mort,non-melanized,7/25/17,7,1,0.233333333,0.019178082,78.4,0.784,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_4,21,CCP1_54,AM_grass,AM,Ceno,melanized ,8/1/17,14,2,0.466666667,0.038356164,24.8,0.248,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_4,21,CCP1_58,EM_forb,EM,Ceno,melanized ,8/1/17,14,2,0.466666667,0.038356164,42.5,0.425,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_4,21,CCP1_47,EM_forb,EM,Mort,non-melanized,8/1/17,14,2,0.466666667,0.038356164,18.33333333,0.183333333,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_4,21,CCP1_55,AM_grass,AM,Mort,non-melanized,8/1/17,14,2,0.466666667,0.038356164,29.2,0.292,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_4,21,CCP1_49,EM_forb,EM,Ceno,melanized ,8/8/17,21,3,0.7,0.057534247,22.30769231,0.223076923,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_4,21,CCP1_52,AM_grass,AM,Ceno,melanized ,8/8/17,21,3,0.7,0.057534247,24.61538462,0.246153846,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_4,21,CCP1_48,EM_forb,EM,Mort,non-melanized,8/8/17,21,3,0.7,0.057534247,21.6,0.216,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_4,21,CCP1_53,AM_grass,AM,Mort,non-melanized,8/8/17,21,3,0.7,0.057534247,24.61538462,0.246153846,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_4,21,CCP1_50,EM_forb,EM,Ceno,melanized ,8/17/17,30,4.285714286,1,0.082191781,22.30769231,0.223076923,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_4,21,CCP1_56,AM_grass,AM,Ceno,melanized ,8/17/17,30,4.285714286,1,0.082191781,30.41666667,0.304166667,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_4,21,CCP1_46,AM_grass,AM,Ceno,melanized ,9/21/17,65,9.285714286,2.166666667,0.178082192,14.61538462,0.146153846,
+cedar creek,Prairie,CC_praire1,field_5,NA,NA,field5_4,21,CCP1_51,EM_forb,EM,Ceno,melanized ,9/21/17,65,9.285714286,2.166666667,0.178082192,23.75,0.2375,
+cedar creek,Prairie,CC_praire2,field_80,16.8,4.5215,field80_1,24, CCP2_67,AM_grass,AM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,23.46153846,0.234615385,
+cedar creek,Prairie,CC_praire2,field_80,16.63333333,4.376,field80_1,24, CCP2_69,EM_forb,EM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,31.29770992,0.312977099,
+cedar creek,Prairie,CC_praire2,field_80,16.63333333,4.376,field80_1,24, CCP2_76,EM_forb,EM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,46.692607,0.46692607,
+cedar creek,Prairie,CC_praire2,field_80,16.8,4.5215,field80_1,24, CCP2_79,AM_grass,AM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,54.50980392,0.545098039,
+cedar creek,Prairie,CC_praire2,field_80,16.8,4.5215,field80_1,24, CCP2_68,AM_grass,AM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,30.26819923,0.302681992,
+cedar creek,Prairie,CC_praire2,field_80,16.63333333,4.376,field80_1,24, CCP2_70,EM_forb,EM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,37.20930233,0.372093023,
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_1,24, CCP2_92,AM_grass,AM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_1,24, CCP2_93,EM_forb,EM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_1,24, CCP2_94,AM_grass,AM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_1,24, CCP2_95,EM_forb,EM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_1,24, CCP2_96,AM_grass,AM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_1,24, CCP2_97,EM_forb,EM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,13.66666667,4.9545,field80_2,27, CCP2_98,EM_forb,EM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,18.3908046,0.183908046,
+cedar creek,Prairie,CC_praire2,field_80,13.7,4.6285,field80_2,27, CCP2_100,AM_grass,AM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,26.4,0.264,
+cedar creek,Prairie,CC_praire2,field_80,13.7,4.6285,field80_2,27, CCP2_112,AM_grass,AM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,50.19455253,0.501945525,
+cedar creek,Prairie,CC_praire2,field_80,13.66666667,4.9545,field80_2,27, CCP2_114,EM_forb,EM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,55.42635659,0.554263566,
+cedar creek,Prairie,CC_praire2,field_80,13.66666667,4.9545,field80_2,27, CCP2_105,EM_forb,EM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,40.234375,0.40234375,
+cedar creek,Prairie,CC_praire2,field_80,13.7,4.6285,field80_2,27, CCP2_108,AM_grass,AM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,42.85714286,0.428571429,
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_2,27, CCP2_128,AM_grass,AM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_2,27, CCP2_129,EM_forb,EM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_2,27, CCP2_130,AM_grass,AM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_2,27, CCP2_131,EM_forb,EM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_2,27, CCP2_132,AM_grass,AM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_2,27, CCP2_133,EM_forb,EM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,10.23333333,4.971,field80_3,30, CCP2_164,AM_grass,AM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,10.53333333,5.3395,field80_3,30, CCP2_165,EM_forb,EM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,10.23333333,4.971,field80_3,30, CCP2_166,AM_grass,AM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,10.53333333,5.3395,field80_3,30, CCP2_167,EM_forb,EM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,10.23333333,4.971,field80_3,30, CCP2_168,AM_grass,AM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,10.53333333,5.3395,field80_3,30, CCP2_169,EM_forb,EM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_3,30, CCP2_134,EM_forb,EM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,3.088803089,0.030888031,
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_3,30, CCP2_144,AM_grass,AM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,35.15625,0.3515625,
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_3,30, CCP2_137,AM_grass,AM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,25.20325203,0.25203252,
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_3,30, CCP2_141,EM_forb,EM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,30.76923077,0.307692308,
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_3,30, CCP2_138,EM_forb,EM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,25.698413,0.25698413,
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_3,30, CCP2_139,AM_grass,AM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,25.86872587,0.258687259,
+cedar creek,Prairie,CC_praire2,field_80,11.23333333,4.815,field80_4,33, CCP2_170,AM_grass,AM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,19.04761905,0.19047619,
+cedar creek,Prairie,CC_praire2,field_80,9.833333333,4.86,field80_4,33, CCP2_176,EM_forb,EM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,26.05363985,0.260536398,
+cedar creek,Prairie,CC_praire2,field_80,9.833333333,4.86,field80_4,33, CCP2_186,EM_forb,EM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,63.2,0.632,
+cedar creek,Prairie,CC_praire2,field_80,11.23333333,4.815,field80_4,33, CCP2_201,AM_grass,AM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,9.833333333,4.86,field80_4,33, CCP2_180,EM_forb,EM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,41.37931034,0.413793103,
+cedar creek,Prairie,CC_praire2,field_80,11.23333333,4.815,field80_4,33, CCP2_182,AM_grass,AM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,50,0.5,
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_4,33, CCP2_199,AM_grass,AM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_4,33, CCP2_200,EM_forb,EM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_4,33, CCP2_202,AM_grass,AM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_4,33, CCP2_203,EM_forb,EM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_4,33, CCP2_204,AM_grass,AM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_4,33, CCP2_205,EM_forb,EM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,12.43333333,5.0665,field80_5,36, CCP2_236,AM_grass,AM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,11.46666667,5.501,field80_5,36, CCP2_237,EM_forb,EM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,12.43333333,5.0665,field80_5,36, CCP2_238,AM_grass,AM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,11.46666667,5.501,field80_5,36, CCP2_239,EM_forb,EM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,12.43333333,5.0665,field80_5,36, CCP2_240,AM_grass,AM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,11.46666667,5.501,field80_5,36, CCP2_241,EM_forb,EM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_5,36, CCP2_206,AM_grass,AM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,9.652509653,0.096525097,
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_5,36, CCP2_210,EM_forb,EM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,22.56809339,0.225680934,
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_5,36, CCP2_213,EM_forb,EM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,25.57251908,0.255725191,
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_5,36, CCP2_221,AM_grass,AM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,42.08494208,0.420849421,
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_5,36, CCP2_214,EM_forb,EM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,26.953125,0.26953125,
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_5,36, CCP2_217,AM_grass,AM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,31.27413127,0.312741313,
+cedar creek,Prairie,CC_praire2,field_80,12.3,4.9555,field80_6,39, CCP2_269,AM_grass,AM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,7.133333333,4.737,field80_6,39, CCP2_270,EM_forb,EM,Ceno,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,12.3,4.9555,field80_6,39, CCP2_272,AM_grass,AM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,7.133333333,4.737,field80_6,39, CCP2_273,EM_forb,EM,Mel_Black,melanized ,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,12.3,4.9555,field80_6,39, CCP2_275,AM_grass,AM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,7.133333333,4.737,field80_6,39, CCP2_276,EM_forb,EM,Mort,non-melanized,8/29/17,11,1.571428571,0.366666667,0.030136986,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_6,39, CCP2_242,AM_grass,AM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,11.50793651,0.115079365,
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_6,39, CCP2_271,EM_forb,EM,Ceno,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_6,39, CCP2_252,AM_grass,AM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,41.12903226,0.411290323,
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_6,39, CCP2_274,EM_forb,EM,Mel_Black,melanized ,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_6,39, CCP2_247,AM_grass,AM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,24.61538462,0.246153846,
+cedar creek,Prairie,CC_praire2,field_80,NA,NA,field80_6,39, CCP2_277,EM_forb,EM,Mort,non-melanized,9/21/17,34,4.857142857,1.133333333,0.093150685,NA,NA,not recovered
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,11.06129214,4.3,Oak_1,15,CCSav_312,EM_tree,EM,Mel_Black,melanized ,,14,2,0.466666667,0.038356164,37.6,0.376,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,11.06129214,4.3,Oak_1,15,CCSav_309,EM_tree,EM,Mel_White,non-melanized,,14,2,0.466666667,0.038356164,30.41666667,0.304166667,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,11.06129214,4.3,Oak_1,15,CCSav_307,EM_tree,EM,Mort,non-melanized,,14,2,0.466666667,0.038356164,25.833333,0.25833333,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,8.487875225,4.3,Oak_1,15,CCSav_297,EM_tree,EM,Mel_Black,melanized ,,28,4,0.933333333,0.076712329,20.8,0.208,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,8.487875225,4.3,Oak_1,15,CCSav_291,EM_tree,EM,Mel_White,non-melanized,,28,4,0.933333333,0.076712329,16.66666667,0.166666667,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,8.487875225,4.3,Oak_1,15,CCSav_294,EM_tree,EM,Mort,non-melanized,,28,4,0.933333333,0.076712329,18.8,0.188,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,12.15317725,4.3,Oak_1,15,CCSav_300,EM_tree,EM,Mel_Black,melanized ,,42,6,1.4,0.115068493,21.92307692,0.219230769,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,12.15317725,4.3,Oak_1,15,CCSav_292,EM_tree,EM,Mel_White,non-melanized,,42,6,1.4,0.115068493,16.8,0.168,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,12.15317725,4.3,Oak_1,15,CCSav_293,EM_tree,EM,Mort,non-melanized,,42,6,1.4,0.115068493,17.77777778,0.177777778,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,10.64474139,4.3,Oak_1,15,CCSav_287,EM_tree,EM,Mel_Black,melanized ,,56,8,1.866666667,0.153424658,13.92857143,0.139285714,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,10.64474139,4.3,Oak_1,15,CCSav_289,EM_tree,EM,Mel_White,non-melanized,,56,8,1.866666667,0.153424658,15.38461538,0.153846154,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,10.64474139,4.3,Oak_1,15,CCSav_285,EM_tree,EM,Mort,non-melanized,,56,8,1.866666667,0.153424658,13.46153846,0.134615385,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,8.367395464,4.67,Oak_2,16,CCSav_348,EM_tree,EM,Mel_Black,melanized ,,14,2,0.466666667,0.038356164,41.15384615,0.411538462,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,8.367395464,4.67,Oak_2,16,CCSav_344,EM_tree,EM,Mel_White,non-melanized,,14,2,0.466666667,0.038356164,29.23076923,0.292307692,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,8.367395464,4.67,Oak_2,16,CCSav_343,EM_tree,EM,Mort,non-melanized,,14,2,0.466666667,0.038356164,28.8,0.288,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,16.04376198,4.67,Oak_2,16,CCSav_339,EM_tree,EM,Mel_Black,melanized ,,28,4,0.933333333,0.076712329,23.7037037,0.237037037,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,16.04376198,4.67,Oak_2,16,CCSav_338,EM_tree,EM,Mel_White,non-melanized,,28,4,0.933333333,0.076712329,23.6,0.236,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,16.04376198,4.67,Oak_2,16,CCSav_331,EM_tree,EM,Mort,non-melanized,,28,4,0.933333333,0.076712329,20.74074074,0.207407407,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,10.21297365,4.67,Oak_2,16,CCSav_326,EM_tree,EM,Mel_Black,melanized ,,42,6,1.4,0.115068493,19.61538462,0.196153846,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,10.21297365,4.67,Oak_2,16,CCSav_328,EM_tree,EM,Mel_White,non-melanized,,42,6,1.4,0.115068493,20.37037037,0.203703704,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,10.21297365,4.67,Oak_2,16,CCSav_319,EM_tree,EM,Mort,non-melanized,,42,6,1.4,0.115068493,13.2,0.132,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,8.865559078,4.67,Oak_2,16,CCSav_323,EM_tree,EM,Mel_Black,melanized ,,56,8,1.866666667,0.153424658,17.69230769,0.176923077,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,8.865559078,4.67,Oak_2,16,CCSav_315,EM_tree,EM,Mel_White,non-melanized,,56,8,1.866666667,0.153424658,7.037037037,0.07037037,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,8.865559078,4.67,Oak_2,16,CCSav_318,EM_tree,EM,Mort,non-melanized,,56,8,1.866666667,0.153424658,12.96296296,0.12962963,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,13.57058806,4.05,Oak_3,17,CCSav_384,EM_tree,EM,Mel_Black,melanized ,,14,2,0.466666667,0.038356164,57.39130435,0.573913043,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,13.57058806,4.05,Oak_3,17,CCSav_375,EM_tree,EM,Mel_White,non-melanized,,14,2,0.466666667,0.038356164,31.85185185,0.318518519,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,13.57058806,4.05,Oak_3,17,CCSav_374,EM_tree,EM,Mort,non-melanized,,14,2,0.466666667,0.038356164,31.6,0.316,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,13.41496388,4.05,Oak_3,17,CCSav_382,EM_tree,EM,Mel_Black,melanized ,,28,4,0.933333333,0.076712329,43.47826087,0.434782609,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,13.41496388,4.05,Oak_3,17,CCSav_370,EM_tree,EM,Mel_White,non-melanized,,28,4,0.933333333,0.076712329,29.23076923,0.292307692,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,13.41496388,4.05,Oak_3,17,CCSav_353,EM_tree,EM,Mort,non-melanized,,28,4,0.933333333,0.076712329,15.76923077,0.157692308,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,12.75749373,4.05,Oak_3,17,CCSav_381,EM_tree,EM,Mel_Black,melanized ,,42,6,1.4,0.115068493,35.83333333,0.358333333,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,12.75749373,4.05,Oak_3,17,CCSav_365,EM_tree,EM,Mel_White,non-melanized,,42,6,1.4,0.115068493,23.75,0.2375,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,12.75749373,4.05,Oak_3,17,CCSav_356,EM_tree,EM,Mort,non-melanized,,42,6,1.4,0.115068493,17.91666667,0.179166667,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,8.033599591,4.05,Oak_3,17,CCSav_379,EM_tree,EM,Mel_Black,melanized ,,56,8,1.866666667,0.153424658,34.16666667,0.341666667,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,8.033599591,4.05,Oak_3,17,CCSav_363,EM_tree,EM,Mel_White,non-melanized,,56,8,1.866666667,0.153424658,21.92307692,0.219230769,
+cedar creek,Oak Savanna,CC_savanna,transect_-10m,8.033599591,4.05,Oak_3,17,CCSav_355,EM_tree,EM,Mort,non-melanized,,56,8,1.866666667,0.153424658,17.30769231,0.173076923,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,9.595020767,5.5,Oak_1,15,CCSav_313,AM_grass,AM,Mel_Black,melanized ,,14,2,0.466666667,0.038356164,49.58333333,0.495833333,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,9.595020767,5.5,Oak_1,15,CCSav_310,AM_grass,AM,Mel_White,non-melanized,,14,2,0.466666667,0.038356164,31.11111111,0.311111111,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,9.595020767,5.5,Oak_1,15,CCSav_301,AM_grass,AM,Mort,non-melanized,,14,2,0.466666667,0.038356164,23.33333333,0.233333333,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,14.46724863,5.5,Oak_1,15,CCSav_305,AM_grass,AM,Mel_Black,melanized ,,28,4,0.933333333,0.076712329,24.44444444,0.244444444,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,14.46724863,5.5,Oak_1,15,CCSav_298,AM_grass,AM,Mel_White,non-melanized,,28,4,0.933333333,0.076712329,20.8,0.208,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,14.46724863,5.5,Oak_1,15,CCSav_304,AM_grass,AM,Mort,non-melanized,,28,4,0.933333333,0.076712329,24.4,0.244,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,12.20344176,5.5,Oak_1,15,CCSav_288,AM_grass,AM,Mel_Black,melanized ,,42,6,1.4,0.115068493,14.7826087,0.147826087,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,12.20344176,5.5,Oak_1,15,CCSav_311,AM_grass,AM,Mel_White,non-melanized,,42,6,1.4,0.115068493,33.07692308,0.330769231,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,12.20344176,5.5,Oak_1,15,CCSav_286,AM_grass,AM,Mort,non-melanized,,42,6,1.4,0.115068493,13.6,0.136,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,7.533420323,5.5,Oak_1,15,CCSav_284,AM_grass,AM,Mel_Black,melanized ,,56,8,1.866666667,0.153424658,13.07692308,0.130769231,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,7.533420323,5.5,Oak_1,15,CCSav_279,AM_grass,AM,Mel_White,non-melanized,,56,8,1.866666667,0.153424658,10,0.1,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,7.533420323,5.5,Oak_1,15,CCSav_282,AM_grass,AM,Mort,non-melanized,,56,8,1.866666667,0.153424658,12.5,0.125,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,10.89403234,5.035,Oak_2,16,CCSav_349,AM_grass,AM,Mel_Black,melanized ,,14,2,0.466666667,0.038356164,46.2962963,0.462962963,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,10.89403234,5.035,Oak_2,16,CCSav_337,AM_grass,AM,Mel_White,non-melanized,,14,2,0.466666667,0.038356164,23.46153846,0.234615385,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,10.89403234,5.035,Oak_2,16,CCSav_336,AM_grass,AM,Mort,non-melanized,,14,2,0.466666667,0.038356164,23.2,0.232,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,13.25310614,5.035,Oak_2,16,CCSav_342,AM_grass,AM,Mel_Black,melanized ,,28,4,0.933333333,0.076712329,28.46153846,0.284615385,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,13.25310614,5.035,Oak_2,16,CCSav_316,AM_grass,AM,Mel_White,non-melanized,,28,4,0.933333333,0.076712329,12,0.12,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,13.25310614,5.035,Oak_2,16,CCSav_324,AM_grass,AM,Mort,non-melanized,,28,4,0.933333333,0.076712329,18,0.18,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,11.92370218,5.035,Oak_2,16,CCSav_327,AM_grass,AM,Mel_Black,melanized ,,42,6,1.4,0.115068493,19.62962963,0.196296296,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,11.92370218,5.035,Oak_2,16,CCSav_314,AM_grass,AM,Mel_White,non-melanized,,42,6,1.4,0.115068493,1.2,0.012,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,11.92370218,5.035,Oak_2,16,CCSav_330,AM_grass,AM,Mort,non-melanized,,42,6,1.4,0.115068493,20.38461538,0.203846154,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,8.80215701,5.035,Oak_2,16,CCSav_341,AM_grass,AM,Mel_Black,melanized ,,56,8,1.866666667,0.153424658,27.85714286,0.278571429,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,8.80215701,5.035,Oak_2,16,CCSav_325,AM_grass,AM,Mel_White,non-melanized,,56,8,1.866666667,0.153424658,19.2,0.192,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,8.80215701,5.035,Oak_2,16,CCSav_321,AM_grass,AM,Mort,non-melanized,,56,8,1.866666667,0.153424658,16,0.16,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,7.687178126,5.215,Oak_3,17,CCSav_385,AM_grass,AM,Mel_Black,melanized ,,14,2,0.466666667,0.038356164,59.6,0.596,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,7.687178126,5.215,Oak_3,17,CCSav_372,AM_grass,AM,Mel_White,non-melanized,,14,2,0.466666667,0.038356164,30.37037037,0.303703704,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,7.687178126,5.215,Oak_3,17,CCSav_369,AM_grass,AM,Mort,non-melanized,,14,2,0.466666667,0.038356164,28.07692308,0.280769231,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,11.73112918,5.215,Oak_3,17,CCSav_378,AM_grass,AM,Mel_Black,melanized ,,28,4,0.933333333,0.076712329,32.91666667,0.329166667,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,11.73112918,5.215,Oak_3,17,CCSav_367,AM_grass,AM,Mel_White,non-melanized,,28,4,0.933333333,0.076712329,24.58333333,0.245833333,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,11.73112918,5.215,Oak_3,17,CCSav_366,AM_grass,AM,Mort,non-melanized,,28,4,0.933333333,0.076712329,23.75,0.2375,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,8.597276914,5.215,Oak_3,17,CCSav_373,AM_grass,AM,Mel_Black,melanized ,,42,6,1.4,0.115068493,30.41666667,0.304166667,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,8.597276914,5.215,Oak_3,17,CCSav_350,AM_grass,AM,Mel_White,non-melanized,,42,6,1.4,0.115068493,11.25,0.1125,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,8.597276914,5.215,Oak_3,17,CCSav_357,AM_grass,AM,Mort,non-melanized,,42,6,1.4,0.115068493,18.07692308,0.180769231,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,4.537862517,5.215,Oak_3,17,CCSav_364,AM_grass,AM,Mel_Black,melanized ,,56,8,1.866666667,0.153424658,23.46153846,0.234615385,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,4.537862517,5.215,Oak_3,17,CCSav_352,AM_grass,AM,Mel_White,non-melanized,,56,8,1.866666667,0.153424658,12.8,0.128,
+cedar creek,Oak Savanna,CC_savanna,transect_20m,4.537862517,5.215,Oak_3,17,CCSav_351,AM_grass,AM,Mort,non-melanized,,56,8,1.866666667,0.153424658,12.5,0.125,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,7.921294392,5.565,Oak_1,15,CCSav_303,forest_grassland,mixed,Mel_Black,melanized ,,14,2,0.466666667,0.038356164,23.84615385,0.238461538,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,7.921294392,5.565,Oak_1,15,CCSav_308,forest_grassland,mixed,Mel_White,non-melanized,,14,2,0.466666667,0.038356164,25.83333333,0.258333333,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,7.921294392,5.565,Oak_1,15,CCSav_299,forest_grassland,mixed,Mort,non-melanized,,14,2,0.466666667,0.038356164,21.2,0.212,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,12.23158644,5.565,Oak_1,15,CCSav_302,forest_grassland,mixed,Mel_Black,melanized ,,28,4,0.933333333,0.076712329,23.33333333,0.233333333,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,12.23158644,5.565,Oak_1,15,CCSav_295,forest_grassland,mixed,Mel_White,non-melanized,,28,4,0.933333333,0.076712329,19.6,0.196,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,12.23158644,5.565,Oak_1,15,CCSav_296,forest_grassland,mixed,Mort,non-melanized,,28,4,0.933333333,0.076712329,20,0.2,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,10.45205832,5.565,Oak_1,15,CCSav_306,forest_grassland,mixed,Mel_Black,melanized ,,42,6,1.4,0.115068493,25,0.25,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,10.45205832,5.565,Oak_1,15,CCSav_290,forest_grassland,mixed,Mel_White,non-melanized,,42,6,1.4,0.115068493,15.38461538,0.153846154,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,10.45205832,5.565,Oak_1,15,CCSav_283,forest_grassland,mixed,Mort,non-melanized,,42,6,1.4,0.115068493,12.5,0.125,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,8.13484562,5.565,Oak_1,15,CCSav_278,forest_grassland,mixed,Mel_Black,melanized ,,56,8,1.866666667,0.153424658,9.166666667,0.091666667,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,8.13484562,5.565,Oak_1,15,CCSav_280,forest_grassland,mixed,Mel_White,non-melanized,,56,8,1.866666667,0.153424658,10,0.1,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,8.13484562,5.565,Oak_1,15,CCSav_281,forest_grassland,mixed,Mort,non-melanized,,56,8,1.866666667,0.153424658,10,0.1,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,8.748146731,4.375,Oak_2,16,CCSav_347,forest_grassland,mixed,Mel_Black,melanized ,,14,2,0.466666667,0.038356164,39.16666667,0.391666667,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,8.748146731,4.375,Oak_2,16,CCSav_346,forest_grassland,mixed,Mel_White,non-melanized,,14,2,0.466666667,0.038356164,32.4,0.324,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,8.748146731,4.375,Oak_2,16,CCSav_340,forest_grassland,mixed,Mort,non-melanized,,14,2,0.466666667,0.038356164,26,0.26,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,12.75083693,4.375,Oak_2,16,CCSav_333,forest_grassland,mixed,Mel_Black,melanized ,,28,4,0.933333333,0.076712329,21.53846154,0.215384615,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,12.75083693,4.375,Oak_2,16,CCSav_329,forest_grassland,mixed,Mel_White,non-melanized,,28,4,0.933333333,0.076712329,20.37037037,0.203703704,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,12.75083693,4.375,Oak_2,16,CCSav_335,forest_grassland,mixed,Mort,non-melanized,,28,4,0.933333333,0.076712329,22.59259259,0.225925926,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,11.09645189,4.375,Oak_2,16,CCSav_332,forest_grassland,mixed,Mel_Black,melanized ,,42,6,1.4,0.115068493,21.15384615,0.211538462,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,11.09645189,4.375,Oak_2,16,CCSav_334,forest_grassland,mixed,Mel_White,non-melanized,,42,6,1.4,0.115068493,21.66666667,0.216666667,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,11.09645189,4.375,Oak_2,16,CCSav_345,forest_grassland,mixed,Mort,non-melanized,,42,6,1.4,0.115068493,30,0.3,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,6.335447925,4.375,Oak_2,16,CCSav_322,forest_grassland,mixed,Mel_Black,melanized ,,56,8,1.866666667,0.153424658,17.6,0.176,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,6.335447925,4.375,Oak_2,16,CCSav_317,forest_grassland,mixed,Mel_White,non-melanized,,56,8,1.866666667,0.153424658,12.30769231,0.123076923,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,6.335447925,4.375,Oak_2,16,CCSav_320,forest_grassland,mixed,Mort,non-melanized,,56,8,1.866666667,0.153424658,15.6,0.156,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,11.49136151,4.265,Oak_3,17,CCSav_383,forest_grassland,mixed,Mel_Black,melanized ,,14,2,0.466666667,0.038356164,48.14814815,0.481481481,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,11.49136151,4.265,Oak_3,17,CCSav_377,forest_grassland,mixed,Mel_White,non-melanized,,14,2,0.466666667,0.038356164,32.8,0.328,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,11.49136151,4.265,Oak_3,17,CCSav_358,forest_grassland,mixed,Mort,non-melanized,,14,2,0.466666667,0.038356164,18.07692308,0.180769231,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,12.08803086,4.265,Oak_3,17,CCSav_380,forest_grassland,mixed,Mel_Black,melanized ,,28,4,0.933333333,0.076712329,34.28571429,0.342857143,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,12.08803086,4.265,Oak_3,17,CCSav_371,forest_grassland,mixed,Mel_White,non-melanized,,28,4,0.933333333,0.076712329,30,0.3,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,12.08803086,4.265,Oak_3,17,CCSav_362,forest_grassland,mixed,Mort,non-melanized,,28,4,0.933333333,0.076712329,21.15384615,0.211538462,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,10.23381782,4.265,Oak_3,17,CCSav_376,forest_grassland,mixed,Mel_Black,melanized ,,42,6,1.4,0.115068493,32,0.32,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,10.23381782,4.265,Oak_3,17,CCSav_360,forest_grassland,mixed,Mel_White,non-melanized,,42,6,1.4,0.115068493,19.16666667,0.191666667,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,10.23381782,4.265,Oak_3,17,CCSav_361,forest_grassland,mixed,Mort,non-melanized,,42,6,1.4,0.115068493,19.62962963,0.196296296,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,7.71415755,4.265,Oak_3,17,CCSav_368,forest_grassland,mixed,Mel_Black,melanized ,,56,8,1.866666667,0.153424658,26.8,0.268,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,7.71415755,4.265,Oak_3,17,CCSav_359,forest_grassland,mixed,Mel_White,non-melanized,,56,8,1.866666667,0.153424658,18.88888889,0.188888889,
+cedar creek,Oak Savanna,CC_savanna,transect_5m,7.71415755,4.265,Oak_3,17,CCSav_354,forest_grassland,mixed,Mort,non-melanized,,56,8,1.866666667,0.153424658,17.08333333,0.170833333,
